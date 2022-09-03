@@ -11,8 +11,9 @@ public class Var {
 
         boolean flag = true;
         System.out.println(flag);
-        char ch = 97;
-        System.out.println(ch);
+        char ch = '\n';
+        System.out.println((int) ch);
+        System.out.println(1 + ch);
         float num1 = 98.2f;
         System.out.println(num1);
         double num2 = 100.23;

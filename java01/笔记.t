@@ -10,3 +10,16 @@
 
 8. byte 1, short 2, int 4, long(L) 8,  boolean 1, char 2, float(f) 4, double 8;
 9. 小数计算是有误差的, 不能直接判断, 可以判断误差值
+--自动类型转化
+10. char -> int -> long -> float -> double; 类型自动转换 低到高;
+11. byte -> short -> int -> long -> float -> double; 类型自动转换 低到高;
+12. char 不能与 (byte, short) 互相转换; 他们之间的计算 会转换为int类型
+13. 不同类型之间的计算结果 会自动转换为最高级的类型;
+14. boolean 和其他类型 不会自动转化 会报错;
+--主动类型转化
+15. 其他类型转 字符串直接 + "";
+16. 字符串转 其他类型 需要 
+    Interger.parseInt(字符串); 字符串只能是数字
+    Boolean.parseBoolean(字符串); 字符串只能是 "true" 或 "false";
+    ...其他都一样
+17. 
