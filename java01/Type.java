@@ -9,5 +9,10 @@ public class Type {
         System.out.println(b);
         boolean bool = Boolean.parseBoolean(flag);
         System.out.println(bool);
+
+        short sh = 12;
+        byte by = 11;
+        int res = ch + sh + by;
+        System.out.println(res);
     }
 }

@@ -22,4 +22,5 @@
     Interger.parseInt(字符串); 字符串只能是数字
     Boolean.parseBoolean(字符串); 字符串只能是 "true" 或 "false";
     ...其他都一样
-17. 
+17. 整数/整数 = 整数
+18. a%b = a - a/b * b;
