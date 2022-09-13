@@ -18,5 +18,12 @@ public class Var {
         System.out.println(num1);
         double num2 = 100.23;
         System.out.println(num2);
+
+        int aa = 97;
+        char ch1 = 97 + 1;
+        System.out.println(ch1);
+
+        String str = ch1 + "";
+        System.out.println(str);
     }
 }
