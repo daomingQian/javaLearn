@@ -37,3 +37,10 @@
 24. 10进制转 2,8,16进制; 通过倒除法;
 25. 2, 8, 16进制 转 10进制. 通过 2, 8, 16 * 1e几次方
 
+第五章: 流程控制
+26. switch 细节
+    1.switch 和case类型需一致,(或可以自动转换);
+    2.switch 和case只能时 byte,short,int,char,emue,和String 6种;
+    3.case后只能时常量;
+    4.default可以没有
+    5.没有break会直接执行到default末尾;
